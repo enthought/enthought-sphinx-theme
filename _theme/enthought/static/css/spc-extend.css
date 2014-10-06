@@ -1,15 +1,8 @@
 body {
-  background-color: #f9faf5;
+  background-color: white;
 }
 .container {
-  width: 80%;
-}
-.main {
-  background-color: white;
-  padding: 18px;
-  -moz-box-shadow: 0 0 3px #888;
-  -webkit-box-shadow: 0 0 3px #888;
-  box-shadow: 0 0 3px #888;
+  width: 90%;
 }
 .underline {
   border-bottom: 1.5px solid #eeeeee;
@@ -33,9 +26,6 @@ body {
 .spc-navbar .nav-pills > li > a {
   padding-top: 2.5px;
   padding-bottom: 2.5px;
-}
-.underline {
-  border-bottom: 1.5px solid #eeeeee;
 }
 .spc-page-title h1,
 .spc-page-title h2,
