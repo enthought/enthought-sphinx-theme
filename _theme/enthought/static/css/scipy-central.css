@@ -151,7 +151,7 @@ body {
 /* Styling for the headers */
 div#spc-section-body h1, h2, h3, h4, h5, h6{
 	color: #20435C;
-	font-family: 'Trebuchet MS', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
     font-weight: normal;
     border-bottom: 0px solid #ccc;
 	margin-bottom: 0.5em;
@@ -221,7 +221,7 @@ tt {
 	margin: 0;
 	margin-right: 20px;
 	color: #555;
-	font-family: 'Inconsolata', 'Lucida Grande';
+	font-family: 'Source Code Pro', monospace;
 	font-size: 24px;
 	text-indent: 0px;
 	text-shadow: none;

@@ -206,7 +206,7 @@ textarea {
 }
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 13px;
   line-height: 19px;
   color: #333333;
@@ -1162,7 +1162,7 @@ address {
 code,
 pre {
   padding: 0 3px 2px;
-  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-family: 'Source Code Pro', monospace;
   font-size: 11px;
   color: #333333;
   -webkit-border-radius: 3px;
@@ -1244,7 +1244,7 @@ input,
 button,
 select,
 textarea {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 label {
   display: block;
