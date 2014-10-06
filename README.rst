@@ -28,13 +28,6 @@ configuration variable:
   One of ``"left"``, ``"right"``, ``"none"``.  Defines where the sidebar
   should appear.
 
-- ``enthought_logo``
-
-  ``True`` or ``False``. Whether to plaster the Enthought logo on top.
-
-  You can use your own logo by overriding the :attr:`layout.html:header`
-  block.
-
 - ``navigation_links``
 
   ``True`` or ``False``. Whether to display "next", "prev", "index", etc.

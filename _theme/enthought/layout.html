@@ -159,20 +159,10 @@
   </head>
   <body>
 {%- block header %}
-{% if theme_enthought_logo %}
-<div class="container">
-  <div class="top-enthought-logo-header">
-    <a href="{{ pathto('index') }}">
-      <img style="border: 0;" alt="Enthought" src="{{ pathto('_static/img/e-logo.png', 1) }}"></a>
-    </div>
-  </div>
-</div>
-{% else %}
   <div class="container">
     <div class="header">
     </div>
   </div>
-{% endif %}
 {% endblock %}
 
 {%- block content %}
