@@ -1,7 +1,9 @@
-scipy-sphinx-theme
-==================
+enthought-sphinx-theme
+======================
 
-`Sphinx <http://sphinx-doc.org>`__ theme for `Scipy <http://scipy.org>`__.
+`Sphinx <http://sphinx-doc.org>`__ theme for `Enthought projects
+<http://www.enthought.com>`_, derived from the `Scipy <http://scipy.org>`_
+theme.
 
 
 Theme options
@@ -26,9 +28,9 @@ configuration variable:
   One of ``"left"``, ``"right"``, ``"none"``.  Defines where the sidebar
   should appear.
 
-- ``scipy_org_logo``
+- ``enthought_logo``
 
-  ``True`` or ``False``. Whether to plaster the scipy.org logo on top.
+  ``True`` or ``False``. Whether to plaster the Enthought logo on top.
 
   You can use your own logo by overriding the :attr:`layout.html:header`
   block.
