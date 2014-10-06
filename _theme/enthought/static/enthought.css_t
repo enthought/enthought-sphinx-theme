@@ -129,11 +129,11 @@ pre {
 .nav-pills > .active > a:hover,
 .nav-pills > .active > a:focus {
   color: #ffffff;
-  background-color: #598EC0;
+  background-color: #253370;
 }
 
 a {
-  color: #598EC0;
+  color: #253370;
   text-decoration: none;
 }
 
