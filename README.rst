@@ -1,15 +1,28 @@
 enthought-sphinx-theme
 ======================
 
-`Sphinx <http://sphinx-doc.org>`__ theme for `Enthought projects
-<http://www.enthought.com>`_, derived from the `Scipy <http://scipy.org>`_
-theme.
+`Sphinx <http://sphinx-doc.org>`_ theme for `Enthought projects
+<http://www.enthought.com>`_, derived from the `Scipy theme
+<https://github.com/scipy/scipy-sphinx-theme>`_.
+
+
+Installation
+------------
+
+Install this as a normal Python package. The theme files are in the package
+data.
+
+In your project's ``conf.py`` file, do the following::
+
+    import enthought_sphinx_theme
+    html_theme_path = [enthought_sphinx_theme.theme_path]
+    html_theme = 'enthought'
 
 
 Theme options
 -------------
 
-The theme takes the followin options in the `html_options`
+The theme takes the followin options in the ``html_theme_options``
 configuration variable:
 
 - ``rootlinks``
