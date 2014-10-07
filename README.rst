@@ -33,6 +33,20 @@ configuration variable:
   ``True`` or ``False``. Whether to display "next", "prev", "index", etc.
   links.
 
+- ``use_default_logo``
+
+  ``True`` or ``False``. Whether to use the default Enthought logo in the
+  sidebar. If the ``html_logo`` configuration parameter is non-empty, it will
+  override this. Set this to ``False`` and ``html_logo`` to empty only if you
+  want no logo at all.
+
+- ``use_default_favicon``
+
+  ``True`` or ``False``. Whether to use the default Enthought logo as the
+  favicon.  If the ``html_favicon`` configuration parameter is non-empty, it
+  will override this. Set this to ``False`` and ``html_favicon`` to empty only
+  if you want no favicon at all.
+
 The following blocks are defined:
 
 - ``layout.html:header``
@@ -42,3 +56,4 @@ The following blocks are defined:
 - ``searchbox.html:edit_link``
 
   Edit link HTML code to paste in the left sidebar, if `edit_link` is enabled.
+
