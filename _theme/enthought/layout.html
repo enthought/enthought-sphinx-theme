@@ -57,6 +57,10 @@
             <p class="logo"><a href="{{ pathto(master_doc) }}">
               <img class="logo" src="{{ pathto('_static/' + logo, 1) }}" alt="Logo">
             </a></p>
+          {%- elif theme_use_default_logo %}
+            <p class="logo"><a href="{{ pathto(master_doc) }}">
+              <img class="logo" src="{{ pathto('_static/img/e-logo.png', 1) }}" alt="Logo">
+            </a></p>
           {%- endif %}
           {%- endblock %}
           {%- if sidebars != None %}
@@ -130,6 +134,8 @@
     {%- endif %}
     {%- if favicon %}
     <link rel="shortcut icon" href="{{ pathto('_static/' + favicon, 1) }}">
+    {%- elif theme_use_default_favicon %}
+    <link rel="shortcut icon" href="{{ pathto('_static/img/favicon.ico', 1) }}">
     {%- endif %}
     {%- endif %}
 {%- block linktags %}
