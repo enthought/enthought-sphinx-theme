@@ -12,11 +12,6 @@ Theme options
 The theme takes the followin options in the `html_options`
 configuration variable:
 
-- ``edit_link``
-
-  ``True`` or ``False``. Determines if an "edit this page" link is displayed
-  in the left sidebar.
-
 - ``rootlinks``
 
   List of tuples ``(url, link_name)`` to show in the beginning of the
@@ -52,8 +47,3 @@ The following blocks are defined:
 - ``layout.html:header``
    
   Block at the top of the page, for logo etc.
-
-- ``searchbox.html:edit_link``
-
-  Edit link HTML code to paste in the left sidebar, if `edit_link` is enabled.
-
