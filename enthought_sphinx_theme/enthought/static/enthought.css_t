@@ -166,6 +166,10 @@ pre {
   background-color: #253370;
 }
 
+.nav-pills.pull-right > li {
+    float: right;
+}
+
 a {
   color: #253370;
   text-decoration: none;
