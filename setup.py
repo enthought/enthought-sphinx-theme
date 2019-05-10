@@ -9,7 +9,7 @@ with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as f:
 
 setup(
     name='enthought_sphinx_theme',
-    version='0.5',
+    version='0.6',
     author='Enthought, Inc.',
     author_email='info@enthought.com',
     description='Sphinx theme for Enthought products',
