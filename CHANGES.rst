@@ -10,8 +10,8 @@ Fixes
 
 * Fix broken search box functionality. (#8)
 
-Release 0.6.0
--------------
+Release 0.6
+-----------
 
 Release date: 2019-05-10
 
@@ -25,8 +25,8 @@ Fixes
 
 * Fix favicon location. (#6)
 
-Release 0.5.0
--------------
+Release 0.5
+-----------
 
 Release date: 2014-10-17
 
