@@ -17,9 +17,13 @@ Release date: 2019-05-10
 
 This is the first release made available on PyPI.
 
-* Fix favicon location. (#6)
+Changes
 
 * Update to current Enthought branding, fix for red font bleedthrough for code tags. (#5)
+
+Fixes
+
+* Fix favicon location. (#6)
 
 Release 0.5.0
 -------------
