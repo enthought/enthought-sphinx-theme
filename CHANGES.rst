@@ -1,6 +1,15 @@
 Enthought Sphinx Theme changelog
 ================================
 
+Release 0.6.2
+-------------
+
+Release date: 2020-04-29
+
+Fixes
+
+* More search functionality fixes. (#12)
+
 Release 0.6.1
 -------------
 
