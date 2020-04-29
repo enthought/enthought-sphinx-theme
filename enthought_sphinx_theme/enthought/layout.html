@@ -97,6 +97,8 @@
         VERSION:     '{{ release|e }}',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '{{ '' if no_search_suffix else file_suffix }}',
+        LINK_SUFFIX: '{{ link_suffix }}',
+        SOURCELINK_SUFFIX: '{{ sourcelink_suffix }}',
         HAS_SOURCE:  {{ has_source|lower }}
       };
     </script>
@@ -212,7 +214,7 @@
             {% endif %}
   {%- block document %}
         <div class="bodywrapper">
-          <div class="body" id="spc-section-body">
+          <div class="body" id="spc-section-body" role="main">
             {% block body %} {% endblock %}
           </div>
         </div>
