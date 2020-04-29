@@ -14,6 +14,7 @@ setup(
     author_email='info@enthought.com',
     description='Sphinx theme for Enthought products',
     long_description=long_description,
+    long_description_content_type="text/x-rst",
     url='https://github.com/enthought/enthought-sphinx-theme',
     packages=find_packages(),
     include_package_data=True,
