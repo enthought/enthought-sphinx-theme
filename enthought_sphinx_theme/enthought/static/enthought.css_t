@@ -32,35 +32,35 @@
 }
 
 @font-face{
-  font-family: 'Source Sans Pro';
+  font-family: 'Poppins';
   font-weight: 400;
   font-style: normal;
   font-stretch: normal;
-  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url('fonts/SourceSansPro-Regular.otf.woff') format('woff');
+  src: local('Poppins'), local('Poppins-Regular'), url('fonts/poppins-v19-latin-regular.otf.woff2') format('woff2');
 }
 
 @font-face{
-  font-family: 'Source Sans Pro';
+  font-family: 'Poppins';
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
-  src: local('Source Sans Pro Semibold'), local('SourceSansPro-Semibold'), url('fonts/SourceSansPro-Semibold.otf.woff') format('woff');
+  src: local('Poppins Semibold'), local('Poppins-SemiBold'), url('fonts/poppins-v19-latin-600.otf.woff2') format('woff2');
 }
 
 @font-face{
-  font-family: 'Source Sans Pro';
+  font-family: 'Poppins';
   font-weight: 400;
   font-style: italic;
   font-stretch: normal;
-  src: local('Source Sans Pro Italic'), local('SourceSansPro-It'), url('fonts/SourceSansPro-It.otf.woff') format('woff');
+  src: local('Poppins Italic'), local('Poppins-Italic'), url('fonts/poppins-v19-latin-italic.otf.woff2') format('woff2');
 }
 
 @font-face{
-  font-family: 'Source Sans Pro';
+  font-family: 'Poppins';
   font-weight: 600;
   font-style: italic;
   font-stretch: normal;
-  src: local('Source Sans Pro Semibold Italic'), local('SourceSansPro-SemiboldIt'), url('fonts/SourceSansPro-SemiboldIt.otf.woff') format('woff');
+  src: local('Poppins Semibold Italic'), local('Poppins-SemiBoldItalic'), url('fonts/poppins-v19-latin-600italic.otf.woff2') format('woff2');
 }
 
 /*
