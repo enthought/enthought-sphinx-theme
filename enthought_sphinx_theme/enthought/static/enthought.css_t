@@ -414,3 +414,7 @@ div.note {
 .label {
     background=color: #add3db;
 }
+
+:not(li) > ul > li:first-child > :first-child {
+    margin-top: 2px;
+}
