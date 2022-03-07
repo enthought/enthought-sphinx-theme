@@ -1,6 +1,15 @@
 Enthought Sphinx Theme changelog
 ================================
 
+Release 0.7.1
+-------------
+
+Release date: 2022-03-07
+
+Changes
+
+* Fix errors in font URLs (#17)
+
 Release 0.7.0
 -------------
 
@@ -8,7 +17,7 @@ Release date: 2022-03-03
 
 Changes
 
-* Update to current Enthought branding (colors, fonts, logos)
+* Update to current Enthought branding (colors, fonts, logos) (#14)
 
 Release 0.6.2
 -------------
