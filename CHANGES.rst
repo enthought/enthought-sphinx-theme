@@ -1,6 +1,15 @@
 Enthought Sphinx Theme changelog
 ================================
 
+Release 0.7.2
+-------------
+
+Release date: 2022-08-10
+
+Changes
+
+* Fix broken references to ``glyphicons-halflings.png``. (#18)
+
 Release 0.7.1
 -------------
 
