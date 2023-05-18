@@ -1,6 +1,16 @@
 Enthought Sphinx Theme changelog
 ================================
 
+Release 0.7.3
+-------------
+
+Release date: 2023-05-16
+
+Changes
+
+* Automate PyPI publication. (#24)
+* Replace 'style' with 'styles' in template for Sphinx 7 compatibility. (#23)
+
 Release 0.7.2
 -------------
 
