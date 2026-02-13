@@ -18,6 +18,9 @@ setup(
     url='https://github.com/enthought/enthought-sphinx-theme',
     packages=find_packages(),
     include_package_data=True,
+    install_requires=[
+        'Sphinx>=4.5',
+    ],
     license = "BSD",
     classifiers = [
         "Development Status :: 4 - Beta",
