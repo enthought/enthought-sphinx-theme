@@ -58,5 +58,5 @@ configuration variable:
 The following blocks are defined:
 
 - ``layout.html:header``
-
+   
   Block at the top of the page, for logo etc.
