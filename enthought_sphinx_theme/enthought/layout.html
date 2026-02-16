@@ -103,7 +103,11 @@
       };
     </script>
     {%- for js in script_files %}
+      {%- if js|attr("filename") %}
     {{ js_tag(js) }}
+      {%- else %}
+    <script type="text/javascript" src="{{ pathto(js, 1) }}"></script>
+      {%- endif %}
     {%- endfor %}
     <script type="text/javascript" src="{{ pathto('_static/js/copybutton.js', 1) }}"></script>
     <script type="text/javascript" src="{{ pathto('_static/js/wrap_on_dot.js', 1) }}"></script>
