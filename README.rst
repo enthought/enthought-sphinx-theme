@@ -9,8 +9,6 @@ enthought-sphinx-theme
 Installation
 ------------
 
-Requires Sphinx >= 4.5.
-
 Install this as a normal Python package. The theme files are in the package
 data.
 
@@ -60,5 +58,5 @@ configuration variable:
 The following blocks are defined:
 
 - ``layout.html:header``
-   
+
   Block at the top of the page, for logo etc.

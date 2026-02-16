@@ -7,7 +7,6 @@ Release 0.7.4
 Changes
 
 * Fix Sphinx 9 compatibility for CSS and JS asset rendering. (#25)
-* Require Sphinx >= 4.5 (for ``css_tag``/``js_tag`` template helpers).
 
 Release 0.7.3
 -------------
