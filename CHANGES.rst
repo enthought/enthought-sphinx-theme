@@ -4,6 +4,8 @@ Enthought Sphinx Theme changelog
 Release 0.7.4
 -------------
 
+Release date: 2026-02-16
+
 Changes
 
 * Fix Sphinx 9 compatibility for CSS and JS asset rendering. (#25)
