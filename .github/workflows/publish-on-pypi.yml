@@ -8,6 +8,10 @@ on:
 jobs:
   build-and-upload:
     runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      contents: read
+      id-token: write
 
     steps:
     - name: Check out the release commit
@@ -22,10 +26,8 @@ jobs:
     - name: Build sdist and wheel
       run: |
         python -m build
-    - name: Publish to PyPI
-      env:
-        TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
-        TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
+    - name: Check the distribution
       run: |
         python -m twine check --strict dist/*
-        python -m twine upload dist/*
+    - name: Publish to PyPI
+      uses: pypa/gh-action-pypi-publish@dc37677b2e1c63e2034f94d8a5b11f265b73ba33 # v1.14.2
