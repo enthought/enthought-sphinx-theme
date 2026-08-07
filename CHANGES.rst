@@ -14,9 +14,12 @@ Changes
   needs to locate a result's page. (#28)
 * Rewrite ``wrap_on_dot.js`` without jQuery, which Sphinx stopped bundling
   in version 6.0. Long dotted names in API signatures can wrap again. (#28)
-* Remove ``copybutton.js``. It has never run under the jQuery that Sphinx
-  used to bundle, and it targets code blocks that Sphinx no longer
-  produces. Use the ``sphinx-copybutton`` extension instead. (#28)
+* Remove ``copybutton.js``. Its ``[>>>]`` button has been invisible ever
+  since jQuery 1.9 removed the event-toggling form of ``.toggle()``: under
+  the jQuery 3 that Sphinx used to bundle, that call hid the button on page
+  load rather than binding a click handler, and since Sphinx 6.0 dropped
+  jQuery the script has not run at all. Use the ``sphinx-copybutton``
+  extension instead. (#28)
 
 Release 0.7.4
 -------------
