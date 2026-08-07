@@ -1,6 +1,23 @@
 Enthought Sphinx Theme changelog
 ================================
 
+Release 0.7.5
+-------------
+
+Release date: XXXX-XX-XX
+
+Changes
+
+* Restore the context snippets shown under each search result. The theme
+  emitted its own ``DOCUMENTATION_OPTIONS`` object, which stopped Sphinx's
+  own copy from loading, and omitted the content root marker that Sphinx
+  needs to locate a result's page. (#28)
+* Rewrite ``wrap_on_dot.js`` without jQuery, which Sphinx stopped bundling
+  in version 6.0. Long dotted names in API signatures can wrap again. (#28)
+* Remove ``copybutton.js``. It has never run under the jQuery that Sphinx
+  used to bundle, and it targets code blocks that Sphinx no longer
+  produces. Use the ``sphinx-copybutton`` extension instead. (#28)
+
 Release 0.7.4
 -------------
 
