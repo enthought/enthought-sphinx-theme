@@ -1,6 +1,26 @@
 Enthought Sphinx Theme changelog
 ================================
 
+Release 0.7.5
+-------------
+
+Release date: 2026-08-07
+
+Changes
+
+* Restore the context snippets shown under each search result. The theme
+  emitted its own ``DOCUMENTATION_OPTIONS`` object, which stopped Sphinx's
+  own copy from loading, and omitted the content root marker that Sphinx
+  needs to locate a result's page. (#28)
+* Rewrite ``wrap_on_dot.js`` without jQuery, which Sphinx stopped bundling
+  in version 6.0. Long dotted names in API signatures can wrap again. (#28)
+* Remove ``copybutton.js``. Its ``[>>>]`` button has been invisible ever
+  since jQuery 1.9 removed the event-toggling form of ``.toggle()``: under
+  the jQuery 3 that Sphinx used to bundle, that call hid the button on page
+  load rather than binding a click handler, and since Sphinx 6.0 dropped
+  jQuery the script has not run at all. Use the ``sphinx-copybutton``
+  extension instead. (#28)
+
 Release 0.7.4
 -------------
 
