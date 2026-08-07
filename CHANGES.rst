@@ -4,7 +4,7 @@ Enthought Sphinx Theme changelog
 Release 0.7.5
 -------------
 
-Release date: XXXX-XX-XX
+Release date: 2026-08-07
 
 Changes
 
